@@ -14,7 +14,7 @@ function PlayerCard({player=[]}) {
                         <div className="about-player">
                          <PlayerName name={player.PFName} />
                          <PlayerSkill skill={player.SkillDesc} value={player.Value} />
-                          <MatchTime mtime={player.UpComingMatchesList[0].MDate} />
+                         <MatchTime mdate={player.UpComingMatchesList[0].MDate} />
                         </div>
                       </div>
                      <PlayerMatch ccode={player.UpComingMatchesList[0].CCode} vsccode={player.UpComingMatchesList[0].VsCCode} />
